@@ -18,3 +18,14 @@ Server API를 통해 정보를 주고받기 위해 사용하는 Query Language �
 1. File 전송 및 Text 만으로 하기 힘든 내용은 처리하기 복잡
 2. 고정된 요청만 응답할 경우 Query로 인해 요청의 크기가 RESTful API 보다 커진다.
 
+## 세팅
+참조 : https://github.com/prisma/graphql-yoga
+1. yarn start
+2. http://localhost:4000
+3. test 
+  e.g.  query{
+          hello
+        }
+
+## 설치
+참조 : https://busy.org/@anpigon/graphql-1-graphql-api--1541861904811
