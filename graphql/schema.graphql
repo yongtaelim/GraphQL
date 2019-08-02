@@ -1,3 +1,15 @@
+type Animal {
+    id: Int!,
+    name: String!, 
+    age: Int!
+}
+
 type Query{
-    hello(name: String): String!
+    animals: [Animal]!,
+    getAnimals(id: Int!): Animal ,
+    getAllAnimals: [Animal]
+}
+
+type Mutation {
+    addAnimal(name: String!, age: Int!):Animal!
 }
