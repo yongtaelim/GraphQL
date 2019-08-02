@@ -26,3 +26,6 @@ Server API를 통해 정보를 주고받기 위해 사용하는 Query Language �
   e.g.  query{
           hello
         }
+
+## 설치
+참조 : https://busy.org/@anpigon/graphql-1-graphql-api--1541861904811
